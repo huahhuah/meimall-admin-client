@@ -1,0 +1,32 @@
+const Authority = {
+    ADMIN: '/admin',
+    ACCOUNT_USER_ADD: '/account/user/add-new',
+    ACCOUNT_USER_DELETE: '/account/user/delete',
+    ACCOUNT_USER_EDIT: '/account/user/edit',
+    ACCOUNT_USER_ENABLE: '/account/user/enable',
+    ACCOUNT_USER_QUERY: '/account/user/query',
+    CONTENT_ARTICLE_CHECK: '/content/article/check',
+    CONTENT_ARTICLE_DELETE: '/content/article/delete',
+    CONTENT_ARTICLE_SEARCH_REBUILD: '/content/article/rebuild-search',
+    CONTENT_ARTICLE_SIMPLE: '/content/article/simple',
+    CONTENT_CATEGORY_DELETE: '/content/category/delete',
+    CONTENT_CATEGORY_CACHE_REBUILD: '/content/category/rebuild-cache',
+    CONTENT_CATEGORY_SIMPLE: '/content/category/simple',
+    CONTENT_COMMENT_CHECK: '/content/comment/check',
+    CONTENT_COMMENT_DELETE: '/content/comment/delete',
+    CONTENT_COMMENT_CACHE_REBUILD: '/content/comment/rebuild-cache',
+    CONTENT_COMMENT_SIMPLE: '/content/comment/simple',
+    MALL_CATEGORY_DELETE: '/mall/category/delete',
+    MALL_CATEGORY_CACHE_REBUILD: '/mall/category/rebuild-cache',
+    MALL_CATEGORY_SIMPLE: '/mall/category/simple',
+    MALL_COMMENT_CHECK: '/mall/comment/check',
+    MALL_COMMENT_DELETE: '/mall/comment/delete',
+    MALL_COMMENT_CACHE_REBUILD: '/mall/comment/rebuild-cache',
+    MALL_COMMENT_SIMPLE: '/mall/comment/simple',
+    MALL_GOODS_CHECK: '/mall/goods/check',
+    MALL_GOODS_DELETE: '/mall/goods/delete',
+    MALL_GOODS_SEARCH_REBUILD: '/mall/goods/rebuild-search',
+    MALL_GOODS_SIMPLE: '/mall/goods/simple'
+}
+
+export default Authority;
